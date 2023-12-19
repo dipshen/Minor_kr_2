@@ -1,0 +1,96 @@
+@media only screen and (min-width: 1920px){
+  h1 {
+    font-size: 2vw;
+  }
+  p {
+    font-size: 1.1vw;
+  }
+  .main a {
+    font-size: 2.1vw;
+  }
+  div > p {
+    margin-top: 0.9vw;
+  }
+
+  /* МЕНЮ */
+  .menu a {
+    top: 3vh;
+    font-size: 2.1vw;
+  }
+  .menu {
+    height: 5vw;
+    width: 100vw;
+  }
+  .menu a:nth-of-type(1) {
+    width: 5.6vw;
+    height: 3.6vw;
+    top: 1vh;
+    left: 2.5vw;
+  }
+  .menu img:nth-of-type(1){
+    width: 5.6vw;
+    height: 3.6vw;
+  }
+  .menu a:nth-of-type(2) {
+    right: 30.2vw;
+  }
+  .menu a:nth-of-type(3) {
+    right: 14.3vw;
+  }
+  .menu a:nth-of-type(4) {
+    right: 2vw;
+  }
+
+  /* О НАС */
+
+  /* МЕРОПРИЯТИЯ */
+
+  /* МАГАЗИН */
+  .grid_shop {
+    width: 95.6vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(40, 3.1vw);
+    margin-top: 1vw;
+  }
+  .s1, .s3, .s5, .s8, .s15, .s18 { grid-column: 1/2; }
+  .s1, .s2 { grid-row: 1/10; }
+  .s2, .s4 { grid-column: 2/4; }
+  .s5, .s6, .s7 { grid-row: 11/20; }
+  .s11, .s12 { grid-row: 21/30; }
+  .s11, .s13 { grid-column: 1/3; }
+  .s15, .s16, .s17 { grid-row: 31/40; }
+
+  .s3 div:nth-of-type(1) { margin-left: 2vw; }
+  .s3 div:nth-of-type(2) {margin-left: 20.3vw; }
+  .s4 div:nth-of-type(1) {margin-left: 2vw; }
+  .s4 div:nth-of-type(2) {margin-left: 52.7vw; }
+  .s8 div:nth-of-type(1) {margin-left: 2vw; }
+  .s8 div:nth-of-type(2) {margin-left: 20.6vw; }
+  .s9 div:nth-of-type(1) {margin-left: 2vw; }
+  .s9 div:nth-of-type(2) {margin-left: 20.3vw; }
+  .s10 div:nth-of-type(1) {margin-left: 2vw; }
+  .s10 div:nth-of-type(2) {margin-left: 18.3vw; }
+  .s13 div:nth-of-type(1) {margin-left: 2vw; }
+  .s13 div:nth-of-type(2) {margin-left: 41.3vw; }
+  .s14 div:nth-of-type(1) {margin-left: 2vw; }
+  .s14 div:nth-of-type(2) {margin-left: 21.1vw; }
+  .s18 div:nth-of-type(1) {margin-left: 2vw; }
+  .s18 div:nth-of-type(2) {margin-left: 16.3vw; }
+  .s19 div:nth-of-type(1) {margin-left: 2vw; }
+  .s19 div:nth-of-type(2) {margin-left: 19.7vw; }
+  .s20 div:nth-of-type(1) {margin-left: 2vw; }
+  .s20 div:nth-of-type(2) {margin-left: 20.6vw; }
+
+  .podval_shop {
+    width: 95.5vw;
+    margin-top: 3.1vw;
+    margin-bottom: 2vw;
+  }
+  .sp1, .sp2, .sp3 {
+    width: 31.8vw;
+    height: 3.1vw;
+  }
+
+
+
+}

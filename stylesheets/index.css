@@ -1,0 +1,399 @@
+#index {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.main a {
+  position: fixed;
+  top: 45vh;
+  color: #ffffff;
+  /* font-size: 2.1vw; */
+  /* top: 25.4vw; */
+}
+.fon img {
+  position: absolute;
+}
+.fon img:nth-of-type(1) {
+  background-size: cover;
+  background-position: left;
+}
+.blue {
+  background-color: #006ADF;
+  opacity: .3;
+}
+
+
+
+@media only screen and (min-width: 1920px) {
+  .fon img:nth-of-type(1) {
+    height: 100vh;
+  }
+  .fon img:nth-of-type(2) {
+    height: 13vw;
+    top: 7vw;
+    left: 9vw;
+    animation: i1 10s linear infinite;
+  }
+  @keyframes i1 {
+    0% {left: 9vw; top: 7vw; opacity: 1;}
+    88% {left: 203vw; top: 5vw; opacity: 1;}
+    89% {left: -19vw; top: 8vw; opacity: 0;}
+    90% {left: -18vw; top: 7vw; opacity: 1;}
+    100% {left: 9vw; top: 7vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(3) {
+    height: 17vw;
+    top: 24vw;
+    left: 9vw;
+    animation: i2 7s linear infinite;
+  }
+  @keyframes i2 {
+    0% {left: 9vw; top: 24vw; opacity: 1;}
+    88% {left: 203vw; top: 22vw; opacity: 1;}
+    89% {left: -16vw; top: 25vw; opacity: 0;}
+    90% {left: -15vw; top: 25vw; opacity: 1;}
+    100% {left: 9vw; top: 24vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(4) {
+    height: 19vw;
+    top: 24vw;
+    left: 27vw;
+    animation: i3 7.8s linear infinite;
+  }
+  @keyframes i3 {
+    0% {left: 27vw; top: 24vw; opacity: 1;}
+    83% {left: 203vw; top: 22vw; opacity: 1;}
+    84% {left: -11vw; top: 25vw; opacity: 0;}
+    85% {left: -10vw; top: 25vw; opacity: 1;}
+    100% {left: 27vw; top: 24vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(5) {
+    height: 5vw;
+    top: 16vw;
+    left: 47vw;
+    animation: i4 6.5s linear infinite;
+  }
+  @keyframes i4 {
+    0% {left: 47vw; top: 16vw; opacity: 1;}
+    75% {left: 203vw; top: 16vw; opacity: 1;}
+    76% {left: -11vw; top: 16vw; opacity: 0;}
+    77% {left: -10vw; top: 16vw; opacity: 1;}
+    100% {left: 47vw; top: 16vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(6) {
+    height: 8vw;
+    top: 37vw;
+    left: 51vw;
+    animation: i5 5s linear infinite;
+  }
+  @keyframes i5 {
+    0% {left: 51vw; top: 37vw; opacity: 1;}
+    74% {left: 203vw; top: 37vw; opacity: 1;}
+    75% {left: -11vw; top: 37vw; opacity: 0;}
+    76% {left: -10vw; top: 37vw; opacity: 1;}
+    100% {left: 51vw; top: 37vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(7) {
+    height: 14vw;
+    top: 6vw;
+    left: 74vw;
+    animation: i6 8s linear infinite;
+  }
+  @keyframes i6 {
+    0% {left: 74vw; top: 6vw; opacity: 1;}
+    30% {left: -50vw; top: 6vw; opacity: 1;}
+    70% {left: -51vw; top: 6vw; opacity: 0;}
+    71% {left: 202vw; top: 6vw; opacity: 0;}
+    72% {left: 203vw; top: 6vw; opacity: 1;}
+    100% {left: 74vw; top: 6vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(8) {
+    height: 11vw;
+    top: 31vw;
+    left: 87vw;
+    animation: i7 12s linear infinite;
+  }
+  @keyframes i7 {
+    0% {left: 87vw; top: 31vw; opacity: 1;}
+    30% {left: -50vw; top: 31vw; opacity: 1;}
+    70% {left: -51vw; top: 31vw; opacity: 0;}
+    71% {left: 202vw; top: 31vw; opacity: 0;}
+    72% {left: 203vw; top: 31vw; opacity: 1;}
+    100% {left: 87vw; top: 31vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(9) {
+    height: 8vw;
+    top: 37vw;
+    left: 94vw;
+    animation: i8 13s linear infinite;
+  }
+  @keyframes i8 {
+    0% {left: 94vw; top: 37vw; opacity: 1;}
+    30% {left: -50vw; top: 37vw; opacity: 1;}
+    70% {left: -51vw; top: 37vw; opacity: 0;}
+    71% {left: 202vw; top: 37vw; opacity: 0;}
+    72% {left: 203vw; top: 37vw; opacity: 1;}
+    100% {left: 94vw; top: 37vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(10) {
+    height: 19vw;
+    top: 22vw;
+    left: 102vw;
+    animation: i9 15s linear infinite;
+  }
+  @keyframes i9 {
+    0% {left: 102vw; top: 22vw; opacity: 1;}
+    30% {left: -50vw; top: 23vw; opacity: 1;}
+    70% {left: -51vw; top: 23vw; opacity: 0;}
+    71% {left: 202vw; top: 21vw; opacity: 0;}
+    72% {left: 203vw; top: 21vw; opacity: 1;}
+    100% {left: 102vw; top: 22vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(11) {
+    height: 19vw;
+    top: 5vw;
+    left: 126vw;
+    animation: i10 11s linear infinite;
+  }
+  @keyframes i10 {
+    0% {left: 102vw; top: 5vw; opacity: 1;}
+    30% {left: -50vw; top: 7vw; opacity: 1;}
+    70% {left: -51vw; top: 7vw; opacity: 0;}
+    71% {left: 202vw; top: 3vw; opacity: 0;}
+    72% {left: 203vw; top: 3vw; opacity: 1;}
+    100% {left: 102vw; top: 5vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(12) {
+    height: 34vw;
+    top: 10vw;
+    left: 144vw;
+    animation: i11 10s linear infinite;
+  }
+  @keyframes i11 {
+    0% {left: 144vw; top: 10vw; opacity: 1;}
+    70% {left: -60vw; top: 10vw; opacity: 1;}
+    83% {left: -61vw; top: 10vw; opacity: 0;}
+    84% {left: 210vw; top: 10vw; opacity: 0;}
+    85% {left: 209vw; top: 10vw; opacity: 1;}
+    100% {left: 144vw; top: 10vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(13) {
+    height: 8vw;
+    top: 10vw;
+    left: 185vw;
+    animation: i12 7s linear infinite;
+  }
+  @keyframes i12 {
+    0% {left: 185vw; top: 10vw; opacity: 1;}
+    80% {left: -50vw; top: 10vw; opacity: 1;}
+    93% {left: -51vw; top: 10vw; opacity: 0;}
+    94% {left: 203vw; top: 10vw; opacity: 0;}
+    95% {left: 202vw; top: 10vw; opacity: 1;}
+    100% {left: 185vw; top: 10vw; opacity: 1;}
+  }
+  .blue {
+    width: 202.6vw;
+    height: 100vh;
+  }
+  .main a:nth-of-type(1) {
+    left: 2vw;
+  }
+  .main a:nth-of-type(2) {
+    right: 30vw;
+  }
+  .main a:nth-of-type(3) {
+    right: 13.5vw;
+  }
+  .main a:nth-of-type(4) {
+    right: 2vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1919px) {
+  .fon img:nth-of-type(1) {
+    height: 100vh;
+  }
+  .fon img:nth-of-type(2) {
+    height: 13vw;
+    top: 7vw;
+    left: 9vw;
+    animation: i1 10s linear infinite;
+  }
+  @keyframes i1 {
+    0% {left: 9vw; top: 7vw; opacity: 1;}
+    88% {left: 203vw; top: 5vw; opacity: 1;}
+    89% {left: -19vw; top: 8vw; opacity: 0;}
+    90% {left: -18vw; top: 7vw; opacity: 1;}
+    100% {left: 9vw; top: 7vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(3) {
+    height: 17vw;
+    top: 24vw;
+    left: 9vw;
+    animation: i2 7s linear infinite;
+  }
+  @keyframes i2 {
+    0% {left: 9vw; top: 24vw; opacity: 1;}
+    88% {left: 203vw; top: 22vw; opacity: 1;}
+    89% {left: -16vw; top: 25vw; opacity: 0;}
+    90% {left: -15vw; top: 25vw; opacity: 1;}
+    100% {left: 9vw; top: 24vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(4) {
+    height: 19vw;
+    top: 24vw;
+    left: 27vw;
+    animation: i3 7.8s linear infinite;
+  }
+  @keyframes i3 {
+    0% {left: 27vw; top: 24vw; opacity: 1;}
+    83% {left: 203vw; top: 22vw; opacity: 1;}
+    84% {left: -11vw; top: 25vw; opacity: 0;}
+    85% {left: -10vw; top: 25vw; opacity: 1;}
+    100% {left: 27vw; top: 24vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(5) {
+    height: 5vw;
+    top: 16vw;
+    left: 47vw;
+    animation: i4 6.5s linear infinite;
+  }
+  @keyframes i4 {
+    0% {left: 47vw; top: 16vw; opacity: 1;}
+    75% {left: 203vw; top: 16vw; opacity: 1;}
+    76% {left: -11vw; top: 16vw; opacity: 0;}
+    77% {left: -10vw; top: 16vw; opacity: 1;}
+    100% {left: 47vw; top: 16vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(6) {
+    height: 8vw;
+    top: 37vw;
+    left: 51vw;
+    animation: i5 5s linear infinite;
+  }
+  @keyframes i5 {
+    0% {left: 51vw; top: 37vw; opacity: 1;}
+    74% {left: 203vw; top: 37vw; opacity: 1;}
+    75% {left: -11vw; top: 37vw; opacity: 0;}
+    76% {left: -10vw; top: 37vw; opacity: 1;}
+    100% {left: 51vw; top: 37vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(7) {
+    height: 14vw;
+    top: 6vw;
+    left: 74vw;
+    animation: i6 8s linear infinite;
+  }
+  @keyframes i6 {
+    0% {left: 74vw; top: 6vw; opacity: 1;}
+    30% {left: -50vw; top: 6vw; opacity: 1;}
+    70% {left: -51vw; top: 6vw; opacity: 0;}
+    71% {left: 202vw; top: 6vw; opacity: 0;}
+    72% {left: 203vw; top: 6vw; opacity: 1;}
+    100% {left: 74vw; top: 6vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(8) {
+    height: 11vw;
+    top: 31vw;
+    left: 87vw;
+    animation: i7 12s linear infinite;
+  }
+  @keyframes i7 {
+    0% {left: 87vw; top: 31vw; opacity: 1;}
+    30% {left: -50vw; top: 31vw; opacity: 1;}
+    70% {left: -51vw; top: 31vw; opacity: 0;}
+    71% {left: 202vw; top: 31vw; opacity: 0;}
+    72% {left: 203vw; top: 31vw; opacity: 1;}
+    100% {left: 87vw; top: 31vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(9) {
+    height: 8vw;
+    top: 37vw;
+    left: 94vw;
+    animation: i8 13s linear infinite;
+  }
+  @keyframes i8 {
+    0% {left: 94vw; top: 37vw; opacity: 1;}
+    30% {left: -50vw; top: 37vw; opacity: 1;}
+    70% {left: -51vw; top: 37vw; opacity: 0;}
+    71% {left: 202vw; top: 37vw; opacity: 0;}
+    72% {left: 203vw; top: 37vw; opacity: 1;}
+    100% {left: 94vw; top: 37vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(10) {
+    height: 19vw;
+    top: 22vw;
+    left: 102vw;
+    animation: i9 15s linear infinite;
+  }
+  @keyframes i9 {
+    0% {left: 102vw; top: 22vw; opacity: 1;}
+    30% {left: -50vw; top: 23vw; opacity: 1;}
+    70% {left: -51vw; top: 23vw; opacity: 0;}
+    71% {left: 202vw; top: 21vw; opacity: 0;}
+    72% {left: 203vw; top: 21vw; opacity: 1;}
+    100% {left: 102vw; top: 22vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(11) {
+    height: 19vw;
+    top: 5vw;
+    left: 126vw;
+    animation: i10 11s linear infinite;
+  }
+  @keyframes i10 {
+    0% {left: 102vw; top: 5vw; opacity: 1;}
+    30% {left: -50vw; top: 7vw; opacity: 1;}
+    70% {left: -51vw; top: 7vw; opacity: 0;}
+    71% {left: 202vw; top: 3vw; opacity: 0;}
+    72% {left: 203vw; top: 3vw; opacity: 1;}
+    100% {left: 102vw; top: 5vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(12) {
+    height: 34vw;
+    top: 10vw;
+    left: 144vw;
+    animation: i11 10s linear infinite;
+  }
+  @keyframes i11 {
+    0% {left: 144vw; top: 10vw; opacity: 1;}
+    70% {left: -60vw; top: 10vw; opacity: 1;}
+    83% {left: -61vw; top: 10vw; opacity: 0;}
+    84% {left: 210vw; top: 10vw; opacity: 0;}
+    85% {left: 209vw; top: 10vw; opacity: 1;}
+    100% {left: 144vw; top: 10vw; opacity: 1;}
+  }
+  .fon img:nth-of-type(13) {
+    height: 8vw;
+    top: 10vw;
+    left: 185vw;
+    animation: i12 7s linear infinite;
+  }
+  @keyframes i12 {
+    0% {left: 185vw; top: 10vw; opacity: 1;}
+    80% {left: -50vw; top: 10vw; opacity: 1;}
+    93% {left: -51vw; top: 10vw; opacity: 0;}
+    94% {left: 203vw; top: 10vw; opacity: 0;}
+    95% {left: 202vw; top: 10vw; opacity: 1;}
+    100% {left: 185vw; top: 10vw; opacity: 1;}
+  }
+
+
+  .blue {
+    width: 272vw;
+    height: 160vh;
+  }
+  .main a:nth-of-type(1) {
+    left: 3vw;
+  }
+  .main a:nth-of-type(2) {
+    right: 31vw;
+  }
+  .main a:nth-of-type(3) {
+    right: 14.5vw;
+  }
+  .main a:nth-of-type(4) {
+    right: 3vw;
+  }
+}
+
+
+/*  */

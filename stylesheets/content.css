@@ -1,0 +1,49 @@
+a, h1, h2, p {
+  font-family: 'Ubuntu';
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+/* .menu {
+  display: flex;
+  background-color: #fff;
+  height: 5vw;
+  width: 100vw;
+} */
+.menu {
+  display: flex;
+  /* position: fixed; */
+  background-color: #fff;
+}
+.menu a:nth-of-type(2):hover {
+  color: #FFD000;
+}
+.menu a:nth-of-type(3):hover {
+  color: #1B79E2;
+}
+.menu a:nth-of-type(4):hover {
+  color: #2C884C;
+}
+.menu a {
+  position: fixed;
+  top: 3vh;
+  color: #000;
+  font-size: 1.5vw;
+}
+
+
+div > p {
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+/*  */

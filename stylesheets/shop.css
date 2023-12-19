@@ -1,0 +1,136 @@
+#shop {
+  overflow-x: hidden;
+}
+#agreen {
+  color: #2C884C;
+}
+.fon4 {
+  position: absolute;
+}
+.fon4 img:nth-of-type(1) {
+  width: 100vw;
+  opacity: .2;
+}
+.grid_shop {
+  display: grid;
+  width: 95.6vw;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(40, 3.1vw);
+  /* margin-top: 1vw; */
+}
+.s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11, .s12, .s13, .s14, .s15, .s16, .s17, .s18, .s19, .s20 {
+  border: 3px solid #2C884C;
+}
+.s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10, .s11, .s12, .s13, .s14, .s15, .s16, .s17, .s18, .s19, .s20 {
+  border-top: none;
+}
+.s2, .s4, .s6, .s7, .s9, .s10, .s12, .s14, .s16, .s17, .s19, .s20 {
+  border-left: none;
+}
+
+.grid_shop > a {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.s1 {
+  background: url(../images/s1.png);
+}
+.s2 {
+  background: url(../images/s2.png);
+}
+.s5 {
+  background: url(../images/s3.png);
+}
+.s6 {
+  background: url(../images/s4.png);
+}
+.s7 {
+  background: url(../images/s5.png);
+}
+.s11 {
+  background: url(../images/s6.png);
+}
+.s12 {
+  background: url(../images/s7.png);
+}
+.s15 {
+  background: url(../images/s8.png);
+}
+.s16 {
+  background: url(../images/s9.png);
+}
+.s17 {
+  background: url(../images/s10.png);
+}
+/* .s3, .s4, .s8, .s9, .s10, .s13, .s14, .s18, .s19, .s20, .s21 > p {
+  display: flex;
+  vertical-align: text-bottom;
+  align-items: center;
+} */
+/* .s3 p:nth-of-type(1) {
+  position: relative;
+  text-align: left;
+  margin-left: 2vw;
+}
+.s3 p:nth-of-type(2) {
+  position: relative;
+  text-align: right;
+  margin-right: 2vw;
+} */
+.grid_shop > div {
+  /* display: inline-flex; */
+  vertical-align: text-bottom;
+  align-items: center;
+}
+.s3 div:nth-of-type(1) { display: inline-flex; }
+.s3 div:nth-of-type(2) { display: inline-flex; }
+.s4 div:nth-of-type(1) { display: inline-flex; }
+.s4 div:nth-of-type(2) { display: inline-flex; }
+.s8 div:nth-of-type(1) { display: inline-flex; }
+.s8 div:nth-of-type(2) { display: inline-flex; }
+.s9 div:nth-of-type(1) { display: inline-flex; }
+.s9 div:nth-of-type(2) { display: inline-flex; }
+.s10 div:nth-of-type(1) { display: inline-flex; }
+.s10 div:nth-of-type(2) { display: inline-flex; }
+.s13 div:nth-of-type(1) { display: inline-flex; }
+.s13 div:nth-of-type(2) { display: inline-flex; }
+.s14 div:nth-of-type(1) { display: inline-flex; }
+.s14 div:nth-of-type(2) { display: inline-flex; }
+.s18 div:nth-of-type(1) { display: inline-flex; }
+.s18 div:nth-of-type(2) { display: inline-flex; }
+.s19 div:nth-of-type(1) { display: inline-flex; }
+.s19 div:nth-of-type(2) { display: inline-flex; }
+.s20 div:nth-of-type(1) { display: inline-flex; }
+.s20 div:nth-of-type(2) { display: inline-flex; }
+
+
+
+
+/* ПОДВАЛ */
+.podval_shop {
+  width: 95.5vw;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3.1vw;
+  margin-bottom: 2vw;
+}
+.sp1, .sp2, .sp3 {
+  display: flex;
+  border: 3px solid #2C884C;
+  margin: 0 auto;
+}
+.sp2, .sp3 {
+  border-left: none;
+}
+
+
+
+
+
+
+
+
+
+/*  */

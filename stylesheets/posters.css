@@ -1,0 +1,196 @@
+.fon5 {
+  position: absolute;
+}
+.fon5 img:nth-of-type(1) {
+  width: 100vw;
+  opacity: .5;
+}
+.grid_poster {
+  display: grid;
+  width: 95.5vw;
+  height: 43.7vw;
+  margin: 0 auto;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  margin-top: 1vw;
+}
+.pt1_1, .pt1_2, .pt1_3, .pt1_4, .pt1_5, .pt1_6, .pt1_7, .pt1_8, .pt1_9, .pt2_1, .pt2_2, .pt2_3, .pt2_4, .pt2_5, .pt2_6, .pt2_7, .pt2_8, .pt2_9, .pt3 {
+  border: 3px solid #1B79E2;
+}
+.pt1_1 {
+  background: url(../images/p1.png);
+}
+.pt1_2 {
+  background: url(../images/p2.png);
+}
+.pt1_3 {
+  background: url(../images/p3.png);
+}
+.pt1_4 {
+  background: url(../images/p4.png);
+}
+.pt1_5 {
+  background: url(../images/p5.png);
+}
+.pt1_6 {
+  background: url(../images/p6.png);
+}
+.pt1_7 {
+  background: url(../images/p7.png);
+}
+.pt1_8 {
+  background: url(../images/p8.png);
+}
+.pt1_9 {
+  background: url(../images/p9.png);
+}
+.pt1_1, .pt1_2, .pt1_3, .pt1_4, .pt1_5, .pt1_6, .pt1_7, .pt1_8, .pt1_9 {
+  grid-column: 1/3;
+  grid-row: 1/15;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pt2_1, .pt2_2, .pt2_3, .pt2_4, .pt2_5, .pt2_6, .pt2_7, .pt2_8, .pt2_9  {
+  grid-column: 3/7;
+  grid-row: 1/14;
+  border-left: none;
+}
+.pt3 {
+  grid-column: 3/7;
+  grid-row: 14/15;
+  border-top: none;
+}
+.pt2_1, .pt2_2, .pt2_3, .pt2_4, .pt2_5, .pt2_6, .pt2_7, .pt2_8, .pt2_9, .pt3 {
+  border-left: none;
+}
+.pt3 p{
+  /* vertical-align: text-bottom; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ОПИСАНИЕ */
+.pt2_1 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_1 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 26vw;
+  /* line-height: 1.3vw; */
+}
+.pt2_2 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_2 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 24vw;
+}
+.pt2_3 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_3 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 26vw;
+}
+.pt2_4 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_4 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 26vw;
+}
+.pt2_5 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_5 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 24vw;
+}
+.pt2_6 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_6 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 24vw;
+}
+.pt2_7 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_7 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 22vw;
+}
+.pt2_8 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_8 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 23vw;
+}
+.pt2_9 h1 {
+  display: flex;
+  margin-top: 1.6vw;
+  margin-left: 2vw;
+}
+.pt2_9 p {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 2vw;
+  width: 23vw;
+}
+
+
+
+/* ПОДВАЛ */
+.podval_poster {
+  width: 95.5vw;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 3.1vw;
+  margin-bottom: 2vw;
+}
+.ptp1, .ptp2, .ptp3 {
+  display: flex;
+  border: 3px solid #1B79E2;
+  width: 31.8vw;
+  height: 3.1vw;
+  margin: 0 auto;
+}
+.ptp2, .ptp3 {
+  border-left: none;
+}
+/*  */
