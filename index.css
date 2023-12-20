@@ -65,11 +65,77 @@ nav a {
   margin-bottom: 5vw;
 }
 .ontop {
+  display: block;
   margin-left: 10vw;
+  margin-top: 3vw;
+  margin-bottom: 5vw;
 }
 
 /* О нас */
 
 #about {
   font-style: italic;
+}
+#shop {
+  font-style: italic;
+}
+
+.first {
+  margin-top: 8vw;
+  margin-left: 10vw;
+}
+.first img {
+  width: 76vw;
+}
+.first h2 {
+  margin-top: 2vw;
+}
+.first p {
+  width: 40vw;
+}
+.second {
+  margin-top: 8vw;
+  margin-left: 10vw;
+}
+.second img {
+  width: 76vw;
+}
+.second h2 {
+  margin-top: 2vw;
+}
+.second p {
+  width: 55vw;
+}
+.third {
+  margin-top: 8vw;
+  margin-left: 10vw;
+}
+.third img {
+  width: 76vw;
+}
+.third h2 {
+  margin-top: 2vw;
+}
+.third p {
+  width: 45vw;
+}
+.games {
+  display: block;
+  margin-left: 10vw;
+  margin-top: 5vw;
+  margin-bottom: 1vw;
+  font-style: italic;
+  font-weight: 500;
+}
+.site {
+  margin-left: 10vw;
+}
+.site img {
+  width: 7vw;
+}
+
+/* Магазин */
+
+.container {
+  margin-top: 10vw;
 }
