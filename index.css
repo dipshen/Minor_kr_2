@@ -1,0 +1,75 @@
+h1, h2, h3, p, a {
+  font-family: 'Ubuntu';
+  color: #000;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5vw;
+}
+h1 {
+  font-size: 4vw;
+}
+h2 {
+  font-size: 2.5vw;
+}
+.fair {
+  position: absolute;
+  width: 100vw;
+  z-index: -1;
+}
+
+nav {
+  display: flex;
+  /* position: fixed; */
+  background-color: #fff;
+}
+.logo {
+  width: 5vw;
+}
+nav a:nth-of-type(1) {
+  margin-top: 0vw;
+  margin-left: 10vw;
+}
+nav a:nth-of-type(2) {
+  margin-top: 1vw;
+  margin-left: 70vw;
+  font-weight: 500;
+}
+nav a:nth-of-type(3) {
+  margin-top: 1vw;
+  margin-left: 80vw;
+  font-weight: 500;
+}
+nav a {
+  position: fixed;
+  top: 3vh;
+  color: #000;
+  font-size: 1.5vw;
+}
+.h1_1 {
+  margin-top: 10vw;
+  margin-left: 10vw;
+  margin-bottom: 2vw;
+}
+.a_reg {
+  margin-left: 10vw;
+  color: #fff;
+}
+#reg {
+  margin-top: 50vw;
+  margin-left: 10vw;
+}
+.sbor {
+  margin-top: 3vw;
+  margin-left: 10vw;
+  margin-bottom: 5vw;
+}
+.ontop {
+  margin-left: 10vw;
+}
+
+/* О нас */
+
+#about {
+  font-style: italic;
+}

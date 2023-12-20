@@ -1,7 +1,7 @@
 #events {
   overflow-x: hidden;
   /* overflow-y: hidden; */
-  width: 277.4vw;
+  width: 312vw;
 }
 #ablue {
   color: #1B79E2;
@@ -21,7 +21,7 @@
 }
 .posters > a {
   display: flex;
-  width: 28.6vw;
+  width: 30vw;
   height: 40.5vw;
   border: 3px solid #1B79E2;
   margin-top: 1vw;

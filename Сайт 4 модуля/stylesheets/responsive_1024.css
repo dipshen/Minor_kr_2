@@ -13,16 +13,16 @@
   /* МЕНЮ */
   .menu a {
     top: 3vh;
-    font-size: 2vw;
+    font-size: 1.7vw;
   }
   .menu { height: 5vw; width: 100vw; }
   .menu a:nth-of-type(1) {
-    width: 7.6vw;
-    height: 5.6vw;
-    top: 0.3vh;
+    width: 5vw;
+    height: 4vw;
+    top: 0.7vh;
     left: 1.7vw;
   }
-  .menu img:nth-of-type(1){ width: 7.6vw; height: 5.6vw; }
+  .menu img:nth-of-type(1){ width: 5vw; height: 4vw; }
   .menu a:nth-of-type(2) { right: 45.2vw; }
   .menu a:nth-of-type(3) { right: 21.3vw; }
   .menu a:nth-of-type(4) { right: 2.3vw; }
